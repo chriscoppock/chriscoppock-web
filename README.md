@@ -31,10 +31,4 @@ Any static host works. Cloudflare Pages, Vercel, and Netlify all have free tiers
 - Add `chriscoppock.com` as the primary domain, then add `chriscoppock.dev` and set it to redirect
   to the `.com`.
 
-## Before you publish
 
-- Replace the placeholder email and LinkedIn URL in `site.config.ts`
-- Rewrite the About copy in your own voice
-- No customer or agency names anywhere, and nothing from cleared work
-- Leave your clearance off the site
-- Check the About and focus-area copy against your employer's social media policy
