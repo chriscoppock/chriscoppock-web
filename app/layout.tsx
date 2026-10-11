@@ -28,6 +28,20 @@ export const metadata: Metadata = {
     url: site.url,
     siteName: site.name,
     type: "website",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: `${site.name}: Defense works better when it’s designed by someone who has attacked it.`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: site.name,
+    description: site.description,
+    images: ["/og.png"],
   },
 };
 
